@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Title :CPU COunter
+# Date : 10/10/14
+# Author :Rhys Coleman
+# Version :
+# Description : Counts the cpu processes running
+# Options : 
+
+grep processor /proc/cpuinfo | wc -l
